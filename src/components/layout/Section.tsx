@@ -5,7 +5,7 @@ type SectionProps = {
 
 function Section({children, id}:SectionProps) {
   return (
-    <section id={id} className="py-16 md:py-24 px-6">
+    <section id={id} className="py-16 px-6 md:py-18">
       {children}
     </section>
   )
