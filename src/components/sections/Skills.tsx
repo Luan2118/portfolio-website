@@ -26,7 +26,7 @@ function Skills() {
 
             {skills.map((skill) => {
               return (
-                <div key={skill.label} className="flex justify-start items-center gap-4 border border-neutral-300 py-2 px-4 rounded-2xl shadow-sm transition hover:shadow-md hover:border-neutral-400 hover:-translate-y-0.5 cursor-pointer">
+                <div key={skill.label} className="flex justify-start items-center bg-neutral-50 gap-4 border border-neutral-300 py-2 px-4 rounded-2xl shadow-sm transition hover:shadow-md hover:border-neutral-400 hover:-translate-y-0.5 cursor-pointer">
                   <StackIcon name={skill.icon} className="size-8 sm:size-10"/>
                   <div className="font-semibold text-sm">
                     {skill.label}

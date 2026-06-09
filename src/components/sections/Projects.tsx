@@ -30,7 +30,7 @@ function Projects() {
           <h2 className="text-3xl font-semibold md:text-4xl text-neutral-950">Projects</h2>
 
 
-          <div className="grid grid-cols-1 mt-5 sm:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 mt-5 sm:grid-cols-2 gap-6 bg-neutral-50">
             {projects.map((project) => {
               return (
                 <ProjectCard key={project.title} project={project}/>
