@@ -6,7 +6,7 @@ import './App.css'
 function App() {
 
   return (
-   <div>
+   <div className='bg-neutral-100'>
     <Hero />
     <Projects />
    </div>
