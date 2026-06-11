@@ -24,7 +24,7 @@ function Contact() {
               GitHub
             </a>
 
-            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/luan-le-7671b9342/" className="inline-flex justify-center items-center border border-neutral-300 text-sm rounded-lg py-2 px-4 font-semibold transition focus-visible:outline:2 focus-visible:outline-offset-2 focus-visible:outline-neutral-950 focus-visible:rounded-lg  hover:border-neutral-700">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/luan-le-7671b9342/" className="inline-flex justify-center items-center border border-neutral-300 text-sm rounded-lg py-2 px-4 font-semibold transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-950 focus-visible:rounded-lg  hover:border-neutral-700">
               LinkedIn
             </a>
           </div>

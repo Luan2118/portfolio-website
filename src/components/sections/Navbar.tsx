@@ -9,8 +9,8 @@ function Navbar() {
 
           <div className="flex text-neutral-600 gap-3">
             <a href="#projects" className="transition hover:text-neutral-950 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-neutral-950 focus-visible:rounded-md">Projects</a>
-            <a href="#skills" className="transition hover:text-neutral-950 focus-visible:outline-offset-4 focus-visible:outline-neutral-950 focus-visible:rounded-md">Skills</a>
-            <a href="#contact" className="transition hover:text-neutral-950 focus-visible:outline-offset-4 focus-visible:outline-neutral-950 focus-visible:rounded-md" >Contact</a>
+            <a href="#skills" className="transition hover:text-neutral-950 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-neutral-950 focus-visible:rounded-md">Skills</a>
+            <a href="#contact" className="transition hover:text-neutral-950 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-neutral-950 focus-visible:rounded-md" >Contact</a>
           </div>
         </div>
       </Container>

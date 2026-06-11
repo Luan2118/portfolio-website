@@ -18,7 +18,7 @@ function ProjectCard({ project }: ProjectCardProp) {
   return (
     <article className="flex flex-col border gap-2 border-neutral-200 rounded-2xl p-5 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md">
       <h3 className="text-xl font-semibold text-neutral-950">{project.title}</h3>
-      <img src={project.img} alt={`${project.title} screenshot`} className="max-h-66 aspect-video mt-2 rounded-xl h-full w-full object-cover object-top"/>
+      <img src={project.img} alt={`${project.title} screenshot`} className="aspect-video mt-2 rounded-xl w-full object-cover object-top"/>
       <p className="mt-4 text-neutral-600 leading-7">{project.description}</p>
 
       <div className="flex gap-4 mt-4 flex-wrap">
