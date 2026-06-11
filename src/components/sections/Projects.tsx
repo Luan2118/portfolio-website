@@ -8,7 +8,7 @@ const projects = [
   {
     title: "Gym Tracker",
     description:
-      "A React and TypeScript gym tracking app for managing training splits, active workout sessions, workout history, progress charts, and body weight tracking.",
+      "A React and TypeScript workout tracking app with Supabase persistence. Users can create training splits, run active workout sessions, save workouts, track body weight, and view progress charts.",
     stack: ["React", "TypeScript", "Supabase", "Chart.js"],
     githubUrl: "https://github.com/Luan2118/gym-tracker.git",
     liveUrl: "https://gym-tracker-azure-tau.vercel.app/",
@@ -17,7 +17,7 @@ const projects = [
   {
     title: "Finance Tracker",
     description:
-      "A full-stack finance tracking app for managing income and expenses, filtering transactions, viewing charts, currency conversion, and protected user data.",
+      "A full-stack finance tracker with Express, MongoDB, JWT authentication, protected user data, income and expense management, transaction filtering, charts, and currency conversion.",
     stack: ["JavaScript", "Node.js", "Express", "MongoDB", "Chart.js"],
     githubUrl: "https://github.com/Luan2118/finance-tracker.git",
     liveUrl: "https://finance-tracker-project-sigma.vercel.app/",
@@ -37,7 +37,7 @@ function Projects() {
           <div className="grid grid-cols-1 mt-5 sm:grid-cols-2 gap-6 bg-neutral-50">
             {projects.map((project) => {
               return (
-                <ProjectCard key={project.title} project={project}/>
+                <ProjectCard key={project.title} project={project} />
               )
             })}
           </div>
