@@ -1,9 +1,12 @@
+
+
 type Project = {
   title: string
   description: string
   stack: string[]
   githubUrl: string
   liveUrl: string
+  img: string
 }
 
 type ProjectCardProp = {
@@ -13,8 +16,9 @@ type ProjectCardProp = {
 
 function ProjectCard({ project }: ProjectCardProp) {
   return (
-    <article className="flex flex-col justify-between border border-neutral-200 rounded-2xl p-5 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md">
+    <article className="flex flex-col border gap-2 border-neutral-200 rounded-2xl p-5 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md">
       <h3 className="text-2xl font-semibold text-neutral-950">{project.title}</h3>
+      <img src={project.img} alt="" className="max-h-66 mt-2 rounded-md h-[100%]"/>
       <p className="mt-4 text-neutral-600 leading-7">{project.description}</p>
 
       <div className="flex gap-4 mt-4 flex-wrap">

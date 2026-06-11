@@ -1,6 +1,8 @@
 import Container from "../layout/Container"
 import Section from "../layout/Section"
 import ProjectCard from "../ui/ProjectCard";
+import exercisesPageImg from '../../assets/exercises-page.png'
+import dashboardPageImg from '../../assets/dashboard-page.png'
 
 const projects = [
   {
@@ -10,14 +12,16 @@ const projects = [
     stack: ["React", "TypeScript", "Supabase", "Chart.js"],
     githubUrl: "https://github.com/Luan2118/gym-tracker.git",
     liveUrl: "https://gym-tracker-azure-tau.vercel.app/",
+    img: exercisesPageImg
   },
   {
     title: "Finance Tracker",
     description:
       "A full-stack finance tracking app for managing income and expenses, filtering transactions, viewing charts, currency conversion, and protected user data.",
-    stack: ["JavaScript", "Node.js", "Express", "MongoDB", "JWT", "Chart.js"],
+    stack: ["JavaScript", "Node.js", "Express", "MongoDB", "Chart.js"],
     githubUrl: "https://github.com/Luan2118/finance-tracker.git",
     liveUrl: "https://finance-tracker-project-sigma.vercel.app/",
+    img: dashboardPageImg
   },
 ];
 
