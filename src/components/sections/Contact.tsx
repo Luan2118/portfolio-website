@@ -18,13 +18,13 @@ function Contact() {
           </div>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-            <a target="_blank" href="mailto:leluanvn21@seznam.cz"  className="inline-flex justify-center items-center bg-neutral-950 text-white text-sm rounded-lg py-2 px-4 font-semibold transition hover:bg-neutral-800">Email me</a>
+            <a href="mailto:leluanvn21@seznam.cz"  className="inline-flex justify-center items-center bg-neutral-950 text-white text-sm rounded-lg py-2 px-4 font-semibold transition hover:bg-neutral-800">Email me</a>
 
-            <a target="_blank" href="https://github.com/Luan2118" className="inline-flex justify-center items-center border border-neutral-300 text-sm rounded-lg py-2 px-4 font-semibold transition hover:border-neutral-700">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/Luan2118" className="inline-flex justify-center items-center border border-neutral-300 text-sm rounded-lg py-2 px-4 font-semibold transition hover:border-neutral-700">
               GitHub
             </a>
 
-            <a target="_blank" href="https://www.linkedin.com/in/luan-le-7671b9342/" className="inline-flex justify-center items-center border border-neutral-300 text-sm rounded-lg py-2 px-4 font-semibold transition hover:border-neutral-700">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/luan-le-7671b9342/" className="inline-flex justify-center items-center border border-neutral-300 text-sm rounded-lg py-2 px-4 font-semibold transition hover:border-neutral-700">
               LinkedIn
             </a>
           </div>

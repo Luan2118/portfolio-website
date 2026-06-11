@@ -32,8 +32,8 @@ function ProjectCard({ project }: ProjectCardProp) {
       </div>
 
       <div className="flex flex-col gap-3 mt-4 sm:flex-row">
-        <a target="_blank" href={project.liveUrl} className="inline-flex justify-center items-center bg-neutral-950 text-white text-sm rounded-lg py-1 px-3 font-semibold transition hover:bg-neutral-800 sm:py-2 sm:px-4">Live Demo</a>
-        <a target="_blank" href={project.githubUrl} className="inline-flex justify-center items-center bg-neutral-950 text-white text-sm rounded-lg py-1 px-3 font-semibold transition hover:bg-neutral-800 sm:py-2 sm:px-4">Github</a>
+        <a target="_blank"  rel="noopener noreferrer" href={project.liveUrl} className="inline-flex justify-center items-center bg-neutral-950 text-white text-sm rounded-lg py-1 px-3 font-semibold transition hover:bg-neutral-800 sm:py-2 sm:px-4">Live Demo</a>
+        <a target="_blank" rel="noopener noreferrer" href={project.githubUrl} className="inline-flex justify-center items-center bg-neutral-950 text-white text-sm rounded-lg py-1 px-3 font-semibold transition hover:bg-neutral-800 sm:py-2 sm:px-4">Github</a>
       </div>
     </article>
   )
