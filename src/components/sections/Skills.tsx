@@ -17,7 +17,7 @@ const skills = [
 
 function Skills() {
   return (
-    <Section>
+    <Section id="skills">
       <Container>
         <div>
           <h2 className="text-2xl font-semibold text-neutral-950 md:text-3xl">Tech Stack</h2>
