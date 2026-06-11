@@ -1,17 +1,25 @@
-import StackIcon from "tech-stack-icons";
 import Section from "../layout/Section";
 import Container from "../layout/Container";
+import cssIcon from '../../assets/icons/css.svg'
+import expressIcon from '../../assets/icons/express.svg'
+import htmlIcon from '../../assets/icons/html.svg'
+import mongodbIcon from '../../assets/icons/mongodb.svg'
+import nodeIcon from '../../assets/icons/node.svg'
+import reactIcon from '../../assets/icons/react.svg'
+import supabaseIcon from '../../assets/icons/supabase.svg'
+import tailwindcssIcon from '../../assets/icons/tailwindcss.svg'
+import typescriptIcon from '../../assets/icons/typescript.svg'
 
 const skills = [
-  { icon: "react", label: "React" },
-  { icon: "typescript", label: "TypeScript" },
-  { icon: "tailwindcss", label: "Tailwind CSS" },
-  { icon: "html5", label: "HTML" },
-  { icon: "css3", label: "CSS" },
-  { icon: "nodejs", label: "Node.js" },
-  { icon: "expressjs", label: "Express" },
-  { icon: "mongodb", label: "MongoDB" },
-  { icon: "supabase", label: "Supabase" },
+  { icon: reactIcon, label: "React" },
+  { icon: typescriptIcon, label: "TypeScript" },
+  { icon: tailwindcssIcon, label: "Tailwind CSS" },
+  { icon: htmlIcon, label: "HTML" },
+  { icon: cssIcon, label: "CSS" },
+  { icon: nodeIcon, label: "Node.js" },
+  { icon: expressIcon, label: "Express" },
+  { icon: mongodbIcon, label: "MongoDB" },
+  { icon: supabaseIcon, label: "Supabase" },
 ];
 
 
@@ -27,7 +35,7 @@ function Skills() {
             {skills.map((skill) => {
               return (
                 <div key={skill.label} className="flex justify-start items-center bg-neutral-50 gap-4 border border-neutral-300 py-2 px-4 rounded-2xl shadow-sm transition hover:shadow-md hover:border-neutral-400 hover:-translate-y-0.5 cursor-pointer ">
-                  <StackIcon name={skill.icon} className="size-8 sm:size-10"/>
+                  <img src={skill.icon} className="size-7 sm:size-8"/>
                   <div className="font-semibold text-sm ">
                     {skill.label}
                   </div>
