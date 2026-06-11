@@ -11,7 +11,7 @@ import Navbar from './components/sections/Navbar'
 function App() {
 
   return (
-   <div className='bg-neutral-100'>
+   <div className='bg-neutral-100 pt-[57px]'>
     <Navbar />
     <Hero />
     <Skills />
