@@ -5,12 +5,14 @@ import Skills from './components/sections/Skills'
 import About from './components/sections/About'
 import Contact from './components/sections/Contact'
 import Footer from './components/sections/Footer'
+import Navbar from './components/sections/Navbar'
 
 
 function App() {
 
   return (
    <div className='bg-neutral-100'>
+    <Navbar />
     <Hero />
     <Projects />
     <Skills />

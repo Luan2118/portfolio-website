@@ -7,7 +7,7 @@ function Hero() {
       <Container>
         <div className="max-w-3xl">
 
-          <h1 className="text-4xl font-semibold tracking-tight md:text-6xl text-neutral-900">Hi, I’m Luan Le.</h1>
+          <h1 className="text-4xl font-semibold tracking-tight md:text-6xl text-neutral-900 mt-5">Hi, I’m Luan Le.</h1>
 
           <p className="mt-6 text-neutral-600 max-w-2xl text-md leading-8 sm:text-lg">
             I build React and TypeScript applications focused on clean UI, reusable components, API integration, and real user workflows.
