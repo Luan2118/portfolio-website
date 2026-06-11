@@ -5,9 +5,9 @@ function About() {
   return (
     <Section>
       <Container>
-        <h2 className="text-2xl font-semibold md:text-3xl  text-neutral-950">About</h2>
+        <h2 className="text-2xl font-semibold text-neutral-950 md:text-3xl ">About</h2>
 
-        <div className="border border-neutral-200 bg-neutral-50 p-6 rounded-2xl shadow-sm mt-5 max-w-3xl text-neutral-600 text-lg">
+        <div className="border border-neutral-200 bg-neutral-50 p-6 rounded-2xl shadow-sm mt-5 max-w-3xl text-neutral-600">
           <p className="leading-8">
             I am focused on becoming a junior frontend developer through
             practical project work. My current experience is project-based: I
