@@ -14,8 +14,8 @@ function App() {
    <div className='bg-neutral-100'>
     <Navbar />
     <Hero />
-    <Projects />
     <Skills />
+    <Projects />
     <About />
     <Contact />
     <Footer />
