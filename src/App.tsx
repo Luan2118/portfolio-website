@@ -14,8 +14,8 @@ function App() {
    <div className='bg-neutral-100 pt-[57px]'>
     <Navbar />
     <Hero />
-    <Skills />
     <Projects />
+    <Skills />
     <About />
     <Contact />
     <Footer />
