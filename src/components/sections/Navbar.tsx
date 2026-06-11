@@ -2,9 +2,9 @@ import Container from "../layout/Container";
 
 function Navbar() {
   return (
-    <nav className="fixed w-full top-0 z-50 border-b border-neutral-200 bg-neutral-100 py-4">
+    <nav className="fixed w-full top-0 z-50 border-b border-neutral-200 bg-neutral-100 py-4 px-6">
       <Container>
-        <div className="flex flex-row justify-between items-center text-sm px-6">
+        <div className="flex flex-row justify-between items-center text-sm">
           <p className=" text-base font-bold text-neutral-950">LL</p>
 
           <div className="flex text-neutral-600 gap-3">
