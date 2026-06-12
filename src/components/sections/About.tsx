@@ -5,7 +5,7 @@ function About() {
   return (
     <Section>
       <Container>
-        <div className="grid text-neutral-600 lg:grid-cols-[0.8fr_1fr]">
+        <div className="grid  gap-8 text-neutral-600 lg:grid-cols-[0.8fr_1fr]">
 
           <div>
             <h2 className="text-2xl font-semibold text-neutral-950 md:text-3xl ">About</h2>
