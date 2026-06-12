@@ -43,7 +43,7 @@ function ProjectCard({ project }: ProjectCardProp) {
 
       <div className="flex flex-col gap-3 mt-4 sm:flex-row">
         <a target="_blank" rel="noopener noreferrer" href={project.liveUrl} className="inline-flex justify-center items-center bg-neutral-950 text-white text-sm rounded-lg py-1 px-3 font-semibold transition hover:bg-neutral-800 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-950 focus-visible:rounded-lg sm:py-2 sm:px-4">Live Demo</a>
-        <a target="_blank" rel="noopener noreferrer" href={project.githubUrl} className="inline-flex justify-center items-center bg-neutral-950 text-white text-sm rounded-lg py-1 px-3 font-semibold transition hover:bg-neutral-800 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-950 focus-visible:rounded-lg sm:py-2 sm:px-4">GitHub</a>
+        <a target="_blank" rel="noopener noreferrer" href={project.githubUrl} className="inline-flex justify-center items-center border border-neutral-300 text-sm rounded-lg py-2 px-4 font-semibold transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-950 focus-visible:rounded-lg  hover:border-neutral-700">GitHub</a>
       </div>
     </article>
   )
