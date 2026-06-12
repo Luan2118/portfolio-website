@@ -8,23 +8,32 @@ const projects = [
   {
     title: "Gym Tracker",
     description:
-      "A React and TypeScript workout tracking app with Supabase persistence. Users can create training splits, run active workout sessions, save workouts, track body weight, and view progress charts.",
+      "A React and TypeScript workout tracker for training splits, active workout logging, body weight tracking, and progress review.",
+    highlights: [
+      "Supabase persistence for training splits, workout history, and body weight logs.",
+      "Active workout flow with exercises, sets, reps, weights, and a workout timer.",
+      "Dashboard, history, exercise filtering, body weight tracking, and progress charts.",
+    ],
     stack: ["React", "TypeScript", "Supabase", "Chart.js"],
-    githubUrl: "https://github.com/Luan2118/gym-tracker.git",
+    githubUrl: "https://github.com/Luan2118/gym-tracker-project",
     liveUrl: "https://gym-tracker-azure-tau.vercel.app/",
-    img: exercisesPageImg
+    img: exercisesPageImg,
   },
   {
     title: "Finance Tracker",
     description:
-      "A full-stack finance tracker with Express, MongoDB, JWT authentication, protected user data, income and expense management, transaction filtering, charts, and currency conversion.",
+      "A full-stack finance tracker for income, expenses, protected user data, transaction filtering, charts, and currency conversion.",
+    highlights: [
+      "JWT authentication with access tokens, refresh cookies, and protected user data.",
+      "Income and expense CRUD flows with MongoDB, validation, and user-specific access.",
+      "Dashboard summaries, transaction filters, Chart.js visualizations, and multi-currency support.",
+    ],
     stack: ["JavaScript", "Node.js", "Express", "MongoDB", "Chart.js"],
-    githubUrl: "https://github.com/Luan2118/finance-tracker.git",
+    githubUrl: "https://github.com/Luan2118/finance-tracker-project",
     liveUrl: "https://finance-tracker-project-sigma.vercel.app/",
-    img: dashboardPageImg
+    img: dashboardPageImg,
   },
 ];
-
 
 function Projects() {
   return (
