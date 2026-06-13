@@ -19,7 +19,7 @@ function ProjectCard({ project }: ProjectCardProp) {
   return (
     <article className="flex flex-col border gap-2 border-neutral-200 rounded-2xl p-5 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md">
       <h3 className="text-xl font-semibold text-neutral-950">{project.title}</h3>
-      <img src={project.img} alt={`${project.title} screenshot`} className="aspect-video mt-2 rounded-xl w-full object-cover object-top" />
+      <img src={project.img} alt={`${project.title} screenshot`} className=" mt-2 rounded-xl w-full object-cover object-top" />
       <p className="mt-4 text-base text-neutral-600 leading-7">{project.description}</p>
 
       <ul className="mt-4 space-y-2 text-sm leading-6 text-neutral-600">

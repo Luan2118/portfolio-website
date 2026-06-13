@@ -1,8 +1,8 @@
 import Container from "../layout/Container"
 import Section from "../layout/Section"
 import ProjectCard from "../ui/ProjectCard";
-import exercisesPageImg from '../../assets/images/exercises-page.png'
-import dashboardPageImg from '../../assets/images/dashboard-page.png'
+import exercisesPageImg from '../../assets/images/gym-tracker.png'
+import dashboardPageImg from '../../assets/images/finance-tracker.png'
 
 const projects = [
   {
