@@ -15,11 +15,11 @@ function About() {
 
           <div className="border border-neutral-200 bg-neutral-50 p-6 rounded-2xl shadow-sm max-w-3xl ">
             <p className="leading-8">
-              I’m a self-taught frontend developer with a project-based learning path. I learned by building longer-term application projects, improving features over time, and working through the practical problems that appear when an application grows beyond simple examples.
+              I’m a self-taught frontend developer with a project-based learning path. I learned by building longer-term application projects, improving features over time, and working through real frontend problems as the projects grew.
             </p>
 
             <p className="leading-8 mt-5">
-              My focus is on clear user flows, React and TypeScript, data-driven interfaces, and turning unclear problems into working frontend features. I’m comfortable learning independently, debugging issues, and improving solutions through iteration.
+              My focus is on React, TypeScript, clear user flows, and interfaces built around application data. I’m comfortable learning independently, debugging issues, and improving features step by step.
             </p>
           </div>
         </div>

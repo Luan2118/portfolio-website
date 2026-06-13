@@ -14,7 +14,7 @@ function Hero() {
           </p>
 
           <p className="mt-4 text-neutral-600 max-w-2xl text-base leading-8">
-            My portfolio is built around two longer-term projects: a full-stack finance tracker and a React/TypeScript gym tracker. They show the direction of my work — building complete application features around real use cases, not just isolated UI examples.
+            My portfolio is built around two longer-term projects: a full-stack finance tracker and a React/TypeScript gym tracker. They show what I focus on: building application features around real use cases.
           </p>
 
           <div className="flex flex-col gap-3 sm:flex-row mt-6">
