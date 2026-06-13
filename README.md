@@ -2,6 +2,10 @@
 
 Personal portfolio website built with React, TypeScript, Vite, and Tailwind CSS.
 
+## Live Site
+
+https://luan-le.dev
+
 ## Overview
 
 This portfolio presents my frontend projects, technical skills, and contact information.
