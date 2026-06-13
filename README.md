@@ -5,7 +5,6 @@ Personal portfolio website built with React, TypeScript, Vite, and Tailwind CSS.
 ## Overview
 
 This portfolio presents my frontend projects, technical skills, and contact information.
-The goal is to show my current level as a junior frontend developer candidate.
 
 ## Features
 
