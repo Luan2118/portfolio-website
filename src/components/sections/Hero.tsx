@@ -10,7 +10,7 @@ function Hero() {
           <h1 className="text-4xl font-semibold tracking-tight text-neutral-900 mt-5 md:text-6xl">Hi, I’m Luan Le.</h1>
 
           <p className="mt-4 text-neutral-600 max-w-2xl text-base leading-8">
-            I’m a junior frontend developer from Plzeň focused on React, TypeScript, and application-style frontend work.
+            I’m a junior frontend developer from Pilsen focused on React, TypeScript, and application-style frontend work.
           </p>
 
           <p className="mt-4 text-neutral-600 max-w-2xl text-base leading-8">
