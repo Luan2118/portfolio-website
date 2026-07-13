@@ -9,6 +9,11 @@ import reactIcon from '../../assets/icons/react.svg'
 import supabaseIcon from '../../assets/icons/supabase.svg'
 import tailwindcssIcon from '../../assets/icons/tailwindcss.svg'
 import typescriptIcon from '../../assets/icons/typescript.svg'
+import postgresql from '../../assets/icons/postgesql.svg'
+import git from '../../assets/icons/git.svg'
+import vite from '../../assets/icons/vite.svg'
+import vitest from '../../assets/icons/vitest.svg'
+
 
 const skills = [
   { icon: reactIcon, label: "React" },
@@ -18,8 +23,12 @@ const skills = [
   { icon: cssIcon, label: "CSS" },
   { icon: nodeIcon, label: "Node.js" },
   { icon: expressIcon, label: "Express" },
+  {icon: postgresql, label: 'PostgreSQL'},
   { icon: mongodbIcon, label: "MongoDB" },
   { icon: supabaseIcon, label: "Supabase" },
+  {icon: vitest, label: 'Vitest'},
+  {icon: git, label: 'Git'},
+  {icon: vite, label: 'Vite'},
 ];
 
 
